@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Particles from 'react-particles-js';
+
 import './App.css';
+import Home from './Pages/Home/Home';
 
 function App() {
+
+
+  // const particlesInit = (main) => {
+  //   console.log(main);
+
+  //   // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  // };
+
+  // const particlesLoaded = (container) => {
+  //   console.log(container);
+  // };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+       {/* <Particles 
+       params={{
+      particles:{
+        number:{
+          value:50,
+          density:{
+            enable:true,
+            value_area:900
+          }
+        },
+        shape:{
+          type:"circle",
+          stroke:{
+            width:6,
+            color:"#f9ab00"
+          }
+
+        }
+      }
+    }}/> */}
+     <Home></Home>
     </div>
   );
 }

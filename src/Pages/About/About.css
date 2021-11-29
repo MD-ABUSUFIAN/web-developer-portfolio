@@ -1,0 +1,24 @@
+.testimonial-text{
+    justify-content:center;
+    align-items:center;
+    margin-top:15%;
+    font-size:20px;
+}
+
+.hireMe-btn{
+    border: 0;
+    font-size:30px;
+    text-align:center;
+    margin-left:25%;
+    border-radius:20px;
+    background-color:rgb(241, 73, 12);
+    color: white;
+    padding:5px 15px;
+    font-weight: 700;
+}
+
+.hireMe-btn:hover{
+background-color: rgb(238, 238, 238);
+color:rgb(241, 73, 12); 
+border: 1px solid black;
+}
