@@ -9,7 +9,7 @@ import  './About.css'
 const About = () => {
   
     return (
-        <div>
+        <div id="about">
             <h1 className=" fs-1 fw-bolder text-center text-white mt-5 bg-black w-25 mx-auto rounded-pill p-3 ">About Me</h1>
             <Container>
                 <Row className="mt-2">

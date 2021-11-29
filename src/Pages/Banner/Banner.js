@@ -11,7 +11,7 @@ const Banner = () => {
             <div className="main-info ">
 
             <ReactTyped className=" h1 fs-1 text-white fw-bolder  "
-                    strings={[" Hi, I'm Abu-SufianI Build Full-Stack Web Development"]}
+                    strings={[" Hi, I'm Abu-Sufian I Build Full-Stack Web Development"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
@@ -23,7 +23,8 @@ const Banner = () => {
                     backSpeed={60}
                     loop
                 />
-               <a href="#" className="btn-main-offer">Contact Me</a>
+               <a href="contact" className="btn-main-offer">Contact Me</a>
+               <a href="https://drive.google.com/file/d/1h5pfiszot8kqRDBPYqIVOc6G_9Ec4Yr5/view?usp=sharing" className="btn-main-offer" target="_blank">Download Resume</a>
 
 
             </div>
