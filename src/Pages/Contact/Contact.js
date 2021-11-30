@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
-import { useForm } from "react-hook-form";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Contact = () => {
+    useEffect(()=>{
+        AOS.init()
+    },[])
 
     const sendEmail=(e)=>{
         e.preventDefault();
@@ -22,7 +26,10 @@ const Contact = () => {
     return (
         
             
-        <Container id="contact">
+        <Container id="contact"
+         data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
 
 
             <div className="row">

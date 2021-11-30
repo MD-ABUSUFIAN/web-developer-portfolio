@@ -1,14 +1,23 @@
 import Button from '@restart/ui/esm/Button';
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactTyped from 'react-typed';
-import './Banner.css'
+import './Banner.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 const Banner = () => {
+
+    useEffect(()=>{
+        AOS.init()
+    },[])
     return (
-        <div className="banner-wraper" >
-            <div className="main-info ">
+        <div className="banner-wraper" 
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="2500" >
+         <div className="main-info ">
 
             <ReactTyped className=" h1 fs-1 text-white fw-bolder  "
                     strings={[" Hi, I'm Abu-Sufian I Build Full-Stack Web Development"]}

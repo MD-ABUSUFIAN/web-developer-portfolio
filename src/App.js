@@ -10,6 +10,7 @@ import {
 
 import './App.css';
 import Blogs from './Pages/Blog/Blogs';
+import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
 import Navigation from './Pages/Navbar/Navigation';
 import ViewDetails from './Pages/ViewDetails/ViewDetails';
@@ -36,6 +37,7 @@ function App() {
           <ViewDetails></ViewDetails>
         </Route>
       </Switch>
+      <Footer></Footer>
       </Router>
    
     </div>

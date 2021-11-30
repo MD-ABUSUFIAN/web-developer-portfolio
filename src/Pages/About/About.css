@@ -29,8 +29,3 @@ color:rgb(241, 73, 12);
 border: 1px solid black;
 }
 
-.myPhoto:hover{
-       transform: rotate(360deg) !important;
-       /* transform: translate(10px, 100px,100px)!important; */
-       transition: 0.6s ease-in-out;
-}
