@@ -23,7 +23,7 @@ const Banner = () => {
                     backSpeed={60}
                     loop
                 />
-               <a href="contact" className="btn-main-offer">Contact Me</a>
+               <a href="#contact" className="btn-main-offer">Contact Me</a>
                <a href="https://drive.google.com/file/d/1h5pfiszot8kqRDBPYqIVOc6G_9Ec4Yr5/view?usp=sharing" className="btn-main-offer" target="_blank">Download Resume</a>
 
 

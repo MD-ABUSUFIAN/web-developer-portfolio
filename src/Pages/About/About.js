@@ -17,25 +17,15 @@ const About = () => {
                 <Col  md="6" lg="6" sm="12" xs="12">
 
                     <div className="mt-50% testimonial-text">
-                        <h1>
-                        Hello! My Name Is
-                        <span className="text-danger"><br /> ABU SUFIAN</span>
-                        </h1>
-                        <p >I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!</p>
-
-                        <ul>
-                            <li>Residence :Bangladesh</li>
-                            <li>City :Narayanganj.</li>
-                            <li> WhatsApp :+8801722123801</li>
-                           <li>Mail:abusufian.programmer@gmail.com</li>
-                            
-                            <a href="#" target="_blank">Facebook</a>
-                            <a href="https://www.linkedin.com/in/abusufian-programmer/" target="_blank">Linkedin</a>
-                            <a href="https://github.com/MD-ABUSUFIAN" target="_blank">GitHub</a>
-                    
-                        </ul>
+                        <h1 className="text-danger fs-1 fw-bolder mb-4">
+                        React Developer
                         
-                        <button className="hireMe-btn ">HIRE ME</button>
+                        </h1>
+                        <p >Hello, <br/>
+                            I'm Abu Sufian working as Full Stack Developer, Front-End Developer & Back-End Developer and React Developer. In the beginning my starts as a Front-End Developer. I've done many design using Front-End Dev tools.</p>
+
+                       
+                        <button className="hireMe-btn "> <a href="https://drive.google.com/file/d/1h5pfiszot8kqRDBPYqIVOc6G_9Ec4Yr5/view?usp=sharing" className="text-decoration-none text-black " target="_blank">HIRE ME</a> </button>
                         
                         </div>
                        
@@ -46,7 +36,7 @@ const About = () => {
                 <Col className=""  md="6" lg="6" sm="12" xs="12">
 
 
-<img className="image-fluid w-100" src={myphoto} alt="" />
+<img className="image-fluid w-100 myPhoto" src={myphoto} alt="" />
 
 
                 </Col>

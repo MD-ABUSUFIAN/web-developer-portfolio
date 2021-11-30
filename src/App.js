@@ -1,48 +1,49 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Particles from 'react-particles-js';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 import './App.css';
+import Blogs from './Pages/Blog/Blogs';
 import Home from './Pages/Home/Home';
+import Navigation from './Pages/Navbar/Navigation';
+import ViewDetails from './Pages/ViewDetails/ViewDetails';
 
 function App() {
 
 
-  // const particlesInit = (main) => {
-  //   console.log(main);
-
-  //   // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  // };
-
-  // const particlesLoaded = (container) => {
-  //   console.log(container);
-  // };
-
   return (
     <div >
-       {/* <Particles 
-       params={{
-      particles:{
-        number:{
-          value:50,
-          density:{
-            enable:true,
-            value_area:900
-          }
-        },
-        shape:{
-          type:"circle",
-          stroke:{
-            width:6,
-            color:"#f9ab00"
-          }
-
-        }
-      }
-    }}/> */}
-     <Home></Home>
+      
+    <Router>
+    <Navigation></Navigation>
+      <Switch>
+        <Route exact path='/'>
+          <Home></Home>
+        </Route>
+        <Route path='/home'>
+          <Home></Home>
+        </Route>
+        <Route path='/blogs'>
+          <Blogs></Blogs>
+        </Route>
+        <Route path='/details/:detailsId'>
+          <ViewDetails></ViewDetails>
+        </Route>
+      </Switch>
+      </Router>
+   
     </div>
   );
 }
 
 export default App;
+
+
+
+

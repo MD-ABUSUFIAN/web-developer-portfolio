@@ -1,7 +1,7 @@
 .banner-wraper{
  
     background-image:url('https://www.push10.com/wp-content/uploads/geneva-gloval-website-hero-design.jpg');
-    height:80vh;
+    height:100vh;
     width:100%;
     position:relative;
     background-repeat:no-repeat;
@@ -22,7 +22,7 @@
 
 .h1{
     color:white;
-    margin-top:10%;
+    margin-top:8%;
     font-weight: 700;
 
 }
